@@ -31,7 +31,7 @@ const Header = ({ isDarkMode, setIsDarkMode }) => {
   }, [displayText, isDeleting]);
 
   return (
-    <section className={`${isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"} mt-[64px] font-['Inter'] relative`}>
+    <section className={`${isDarkMode ? "bg-gray-900 text-white" : "bg-white text-black"} pt-[64px] font-['Inter'] relative`}>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-8 py-16 flex flex-col md:flex-row items-start justify-start gap-8">
 
         {/* Left section */}
