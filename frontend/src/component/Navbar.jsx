@@ -12,7 +12,7 @@ const Navbar = (props) => {
   const toggleLogin = () => setIsLoggedIn(!isLoggedIn);
 
   return (
-<nav className={`shadow-md fixed top-4 left-1/2 w-full z-50 backdrop-blur-lg shadow-lg -translate-x-1/2 px-4 py-3 rounded-full  transition-all  duration-300 ${isDarkMode ? "bg-black/10 text-white" : "bg-white/10 text-black"}`}>
+<nav className={`fixed top-4 left-1/2 w-full z-50 backdrop-blur-lg shadow-lg -translate-x-1/2 px-4 py-3 rounded-full  transition-all  duration-300 ${isDarkMode ? "bg-black/10 text-white" : "bg-white/10 text-black"}`}>
   <div className="max-w-screen-xl mx-auto flex items-center justify-between px-6 sm:px-12 py-4">
     {/* Logo */}
     <div className="text-lg font-bold">
