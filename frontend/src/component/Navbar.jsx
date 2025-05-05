@@ -21,7 +21,7 @@ const Navbar = (props) => {
 
     {/* Links */}
     <div className="flex gap-6 text-base font-medium">
-      <NavLink to="/home" className="hover:underline">Home</NavLink>
+      <NavLink to="/" className="hover:underline">Home</NavLink>
       <NavLink to="/society" className="hover:underline">Society</NavLink>
       <NavLink to="/shop" className="hover:underline">Online Shop</NavLink>
       <NavLink to="/service" className="hover:underline">Service</NavLink>
